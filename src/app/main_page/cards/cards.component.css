@@ -1,0 +1,113 @@
+.cards{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.cards_div{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 35px;
+}
+.card{
+    box-sizing: border-box;
+    width: 390px;
+    height: 390px;
+    background: #FFFFFF;
+    border: 1px solid rgba(24, 164, 225, 0.3);
+    box-shadow: 0px 4px 30px rgba(5, 51, 84, 0.05);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card_top{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 230px;
+    margin-top: 10px;
+}
+.views{
+    display: flex;
+    flex-direction: row;
+    width: 107px;
+    height: 30px;
+    background: rgba(236, 242, 248, 0.5);
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    margin-left: 10px;
+}
+.views img{
+    height: 12.5px;
+    width: 18.333332061767578px;
+    border-radius: 0px;
+
+}
+.views p{
+    font-family: FiraGO;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0.07em;
+    margin-top: 15px;
+    color: rgba(5, 51, 84, 0.5);
+}
+.pin{
+    height: 23.400001525878906px;
+    width: 23.400001525878906px;
+    border-radius: 0px;
+
+}
+.profile_photo{
+    width: 157px;
+    height: 157px;
+}
+.card h4{
+    font-family: 'FiraGO';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #053354;
+    margin-top: 15px;
+}
+.card h5{
+    font-family: 'FiraGO';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(5, 51, 84, 0.3);
+}
+.review{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    gap: 2px;
+}
+.card a button{
+    box-sizing: border-box;
+    width: 200px;
+    height: 50px;
+    border: 1px solid #18A4E1;
+    border-radius: 25px;
+    background-color: white;
+    font-family: 'FiraGO';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #18A4E1;
+    margin-top: 20px;
+}

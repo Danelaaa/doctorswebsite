@@ -1,0 +1,53 @@
+.user{
+    width: 100%;
+    height: auto;
+}
+.user_div{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.buttons{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: end;
+    margin-top: 30px;
+}
+.b1{
+    width: 230px;
+    height: 50px;
+    background: #ECF2F8;
+    border-radius: 50px;
+    font-family: 'FiraGO';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+border: none;
+
+color: #18A4E1;
+}
+.b2{
+    width: 170px;
+height: 50px;
+left: 1600px;
+top: 1036px;
+
+background: #FF93A6;
+border-radius: 50px;
+font-family: 'FiraGO';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+border: none;
+color: #FFFFFF;
+}

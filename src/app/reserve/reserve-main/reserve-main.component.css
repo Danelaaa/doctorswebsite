@@ -1,0 +1,82 @@
+.main{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+
+}
+.main_div{
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.main_left{
+    width: auto;
+    height: auto;
+}
+.main_right{
+    width: 70%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    column-gap: 30px;
+}
+.top{
+    width: 100%;
+    height: auto;
+}
+.bottom{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+.cal{
+    margin-top: 50px;
+    width: 80%;
+}
+.buttons{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.b1{
+    width: 230px;
+    height: 50px;
+    background: #ECF2F8;
+    border-radius: 50px;
+    font-family: 'FiraGO';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+border: none;
+
+color: #18A4E1;
+}
+.b2{
+    width: 170px;
+height: 50px;
+left: 1600px;
+top: 1036px;
+
+background: #FF93A6;
+border-radius: 50px;
+font-family: 'FiraGO';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+border: none;
+color: #FFFFFF;
+}

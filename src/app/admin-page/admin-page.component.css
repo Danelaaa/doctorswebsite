@@ -1,0 +1,199 @@
+.wrapper {
+    position: relative;
+    width: 100%;
+    height: 900px;
+    background: #fefefe;
+    margin-top: -10px;
+}
+.wrapper .div-1 {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 32px;
+    left: 7.5%;
+}
+.wrapper .div-1 .container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 500px;
+    height: 32px;
+    padding-top: 5px;
+    background: #fff;
+    box-shadow: 0px 4px 30px rgba(5, 51, 84, 0.05);
+    border-radius: 25px;
+}
+.wrapper .div-1 .container div {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.wrapper .div-1 .container div img {
+    height: 2px;
+    margin: 0 0 2.4px -10px;
+    cursor: pointer;
+}
+.wrapper .div-1 .container div .line-1 {
+    width: 18px;
+}
+.wrapper .div-1 .container div .line-2 {
+    width: 15px;
+}
+.wrapper .div-1 .container div .line-3 {
+    width: 11px;
+}
+.wrapper .div-1 .container p {
+    font-weight: 400;
+    line-height: 22px;
+    font-size: 14px;
+    color: #053354;
+    cursor: pointer;
+}
+.wrapper .div-1 .container #doctors {
+    color: #18a4e1;
+    font-weight: 500ng s;
+}
+.wrapper .div-1 button {
+    border: 1px solid rgba(24, 164, 225, 0.3);
+    border-radius: 50px;
+    width: 242px;
+    height: 32px;
+    font-size: 14px;
+    font-weight: 500;
+    background: #fff;
+    margin: 0 8px;
+    color: #18a4e1;
+    cursor: pointer;
+}
+.wrapper .div-1 #doctor {
+    border: none;
+    background: #f0faff;
+}
+.wrapper .doctor-info {
+    position: absolute;
+    top: 160px;
+    left: 7.5%;
+    background: #fff;
+    width: 600px;
+    height: 260px;
+    box-shadow: 0px 4px 30px rgba(5, 51, 84, 0.05);
+    border-radius: 10px;
+}
+.wrapper .doctor-info .edit-img {
+    width: 16px;
+    margin-right: 12px;
+}
+.wrapper .doctor-info p {
+    font-size: 14px;
+}
+.wrapper .doctor-info p span {
+    font-weight: 400;
+    line-height: 22px;
+    color: #053354;
+    margin-bottom: 20px;
+}
+.wrapper .doctor-info .sect-1 {
+    position: absolute;
+    top: 20px;
+    left: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper .doctor-info .sect-1 img {
+    width: 110px;
+    height: 110px;
+}
+.wrapper .doctor-info .sect-1 h4 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #18a4e1;
+}
+.wrapper .doctor-info .sect-1 p {
+    font-weight: 400;
+    font-size: 10.2px;
+    line-height: 17px;
+    color: rgba(5, 51, 84, 0.3);
+}
+.wrapper .doctor-info .sect-1 #doctor {
+    color: #053354;
+}
+.wrapper .doctor-info .sect-1 .star {
+    width: 15px;
+    height: 14px;
+    margin-right: 2px;
+}
+.wrapper .doctor-info .second-p {
+    margin: 0 0 8px 0;
+    color: rgba(5, 51, 84, 0.3);
+}
+.wrapper .doctor-info .sect-2 {
+    position: absolute;
+    top: 35px;
+    left: 37%;
+}
+.wrapper .doctor-info .sect-2 .second-p {
+    margin: 0 0 20px 18.6%;
+}
+.wrapper .doctor-info .sect-3 {
+    position: absolute;
+    top: 35px;
+    left: 70%;
+}
+.wrapper .doctor-info .sect-3 .second-p {
+    padding-left: 50%;
+}
+.wrapper .buttons {
+    position: absolute;
+    top: 440px;
+    left: 7.6%;
+}
+.wrapper .buttons button {
+    margin-right: 22px;
+    height: 37px;
+    width: 125px;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    color: #fff;
+    border: none;
+}
+.wrapper .buttons .add {
+    background: #3acf99;
+    margin-bottom: 20px;
+}
+.wrapper .buttons .edit {
+    width: 180px;
+    background: #ecf2f8;
+    color: #18a4e1;
+    position: relative;
+    padding-left: 20px;
+}
+.wrapper .buttons .edit img {
+    width: 16px;
+    margin-right: 12px;
+    position: absolute;
+    top: 25%;
+    left: 14%;
+}
+.wrapper .buttons .delete {
+    background: #ff93a6;
+    position: relative;
+    padding-left: 20px;
+}
+.wrapper .buttons .delete img {
+    width: 16px;
+    height: 19px;
+    position: absolute;
+    top: 24%;
+    left: 18%;
+}
+.wrapper .scheduler {
+    position: absolute;
+    top: 150px;
+    width: 950px;
+
+    margin-left: 830px;
+}

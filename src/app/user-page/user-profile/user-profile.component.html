@@ -1,0 +1,12 @@
+<div class="user_profile">
+    <div class="user_profile_div">
+        <img src="../../../assets/Ellipse 2.png" alt="">
+        <h5>მოხმარებელი</h5>
+        <div *ngFor="let item of doctors">
+            <p>პირადი ნომერი : <span>{{item.idNumber}}</span></p>
+            <p>Email : <span> {{item.email}}</span></p>
+        </div>
+        <a href="">პაროლის შეცვლა</a>
+        <p>ჩემი ჯავშანი : <span>( 1 )</span></p>
+    </div>
+</div>

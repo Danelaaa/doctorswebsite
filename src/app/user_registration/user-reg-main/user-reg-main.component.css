@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    width: 100%;
+    height: auto;
+    font-family: 'FiraGO';
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    width: 90%;
+    height: auto;
+   
+}
+.title h3{
+    font-family: 'FiraGO';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 31px;
+    color: #18A4E1;
+    margin-top: 2%;
+    margin-left: 3%;
+}
+main form{
+    margin-top: 30px;
+    width: 85%;
+    height: auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+}
+main form div{
+    width: auto;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+
+}
+main form div p{
+    font-family: 'FiraGO';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    margin-left: 25px;
+    color: #053354;
+}
+main form div input{
+    width: 100%;
+    height: 50px;
+    border: 1px solid #ECF2F8;
+    border-radius: 50px;
+    padding-left: 25px;
+    margin-top: 5px;
+}
+.reg{
+    width: 180px;
+    height: 50px;
+    background: #053354;
+    border-radius: 50px;
+    font-family: 'FiraGO';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    margin-left: 75%;
+    border: solid 1px #053354;
+    margin-top: 2%;
+}
+main button:hover{
+    background-color: white;
+    color: #053354;
+}
+.email_input{
+    width: auto;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+main form div img{
+    height: 15.833311080932617px;
+    width: 19.166645050048828px;
+    border-radius: 0px;
+    position: absolute;
+    margin-left: 23%;
+    margin-top: 1.2%;
+    cursor: pointer;
+}
+.doctor_reg_button{
+    width: 200px;
+    height: 50px;
+    background: #053354;
+    border-radius: 50px;
+    font-family: 'FiraGO';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    margin-left: 85%;
+    border: solid 1px #053354;
+    margin-top: 5%;
+}

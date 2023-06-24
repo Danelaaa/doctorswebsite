@@ -1,0 +1,134 @@
+.wrapper {
+    width: 100%;
+    height: 900px;
+    background: #fefefe;
+}
+.wrapper .container {
+    width: 100%;
+    margin-top: 5%;
+    margin-left: 6%;
+}
+.wrapper .container h2 {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 31px;
+    color: #18a4e1;
+}
+.wrapper .container .table {
+    width: 100%;
+    background: #fff;
+    box-shadow: 0px 4px 30px rgba(5, 51, 84, 0.05);
+    border-radius: 10px;
+    margin-top: 35px;
+}
+.wrapper .container .table .th-row {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background: #f0faff;
+    padding: 8px 25px;
+    border-radius: 10px 10px 0px 0px;
+}
+.wrapper .container .table .th-row p {
+    width: 20%;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 19px;
+    color: #053354;
+}
+.wrapper .container .table .th-row .category {
+    padding-left: 2.5%;
+}
+.wrapper .container .table .th-row .picture {
+    padding-left: 5%;
+}
+.wrapper .container .table .th-row .rate {
+    padding-left: 8.5%;
+}
+.wrapper .container .table .body {
+    height: 410px;
+    overflow-y: scroll;
+}
+.wrapper .container .table .body::-webkit-scrollbar {
+    width: 7px;
+}
+.wrapper .container .table .body::-webkit-scrollbar-track {
+    background: #ecf2f8;
+    border-radius: 0px 0px 10px 0px;
+}
+.wrapper .container .table .body::-webkit-scrollbar-thumb {
+    background: #053354;
+    border-radius: 5px;
+    border: 0;
+}
+.wrapper .container .table .body .tr-rows {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border-bottom: 1px solid #ecf2f8;
+    padding: 5px 25px;
+}
+.wrapper .container .table .body .tr-rows:last-child {
+    border-radius: 0px 0px 10px 10px;
+    border: none;
+}
+.wrapper .container .table .body .tr-rows p, .wrapper .container .table .body .tr-rows div {
+    width: 20%;
+}
+.wrapper .container .table .body .tr-rows p {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 19px;
+    color: #053354;
+}
+.wrapper .container .table .body .tr-rows .category {
+    padding-left: 2.5%;
+}
+.wrapper .container .table .body .img {
+    padding-left: 8.4%;
+}
+.wrapper .container .table .body .img img {
+    width: 28px;
+    height: 28px;
+    margin-top: 2.5px;
+}
+.wrapper .container .table .body .rate {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 5%;
+}
+.wrapper .container .table .body .rate img {
+    width: 13px;
+    height: 12px;
+    margin-right: 2.5px;
+}
+.wrapper .container .table .body .edit-delete {
+    display: flex;
+    align-items: center;
+}
+.wrapper .container .table .body .edit-delete .edit-green-icon {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background: #dafaee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 15px 0 50%;
+}
+.wrapper .container .table .body .edit-delete .edit-green-icon img {
+    width: 14px;
+}
+.wrapper .container .table .body .edit-delete .delete-icon {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background: #ff93a6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wrapper .container .table .body .edit-delete .delete-icon img {
+    width: 18px;
+}

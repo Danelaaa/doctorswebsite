@@ -1,0 +1,133 @@
+.bottom_header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ECF2F8;
+    height: 120px;
+}
+.bottom_header_div{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    height: auto;
+}
+.bottom_header_contact{
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    width: 40%;
+}
+.contact_number{
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    height: auto;
+    gap: 20px;
+    text-align: center;
+    align-items: center;
+}
+.phone_number{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+}
+.phone_logo{
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ellipse{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+}
+.phone{
+    height: 17.91666603088379px;
+    width: 17.891664505004883px;
+    position: absolute;  
+}
+.contact_number p{
+    width: auto;
+    height: 22px;
+    font-family: 'FiraGO';
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 0.07em;
+    color: #053354;
+    margin-top: 10px;
+}
+
+
+.contact_adress{
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    height: auto;
+    gap: 20px;
+    text-align: center;
+    align-items: center;
+}
+.adress_logo{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.adress_logo img{
+    position: absolute;
+}
+.dot{
+    margin-top: -3px;
+}
+.contact_adress p{
+    height: 22px;
+    font-family: 'FiraGO';
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 0.07em;
+    color: #053354;
+    margin-top: 10px;
+}
+.bottom_header_search{
+    width: 60%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+.bottom_header_search input{
+    width: 450px;
+    height: 50px;
+    background: #FFFFFF;
+    border: 1px solid rgba(24, 164, 225, 0.5);
+    border-radius: 50px;
+    font-family: 'FiraGO';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    padding-left: 25px;
+}
+.bottom_header_search button{
+    width: 50px;
+    border: none;
+    height: 50px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #053354;
+}
+.bottom_header_search button img{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+}

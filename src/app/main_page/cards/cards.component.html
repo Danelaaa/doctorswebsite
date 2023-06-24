@@ -1,0 +1,20 @@
+<div class="cards">
+    <div class="cards_div">
+        <div class="card" *ngFor="let item of cards">
+            <div class="card_top">
+                <div class="views">
+                    <img src="../../../assets/Vector (3).png" alt="">
+                    <p>{{item.view}}</p>
+                </div>
+                <img class="pin" src="../../../assets/Vector (4).png" alt="">
+            </div>
+            <img class="profile_photo" src="{{item.profile_img}}" alt="">
+            <h4>{{item.name}}</h4>
+            <h5>{{item.profession}}</h5>
+            <div class="review">
+                <img *ngFor="let rev of cards" src="../../../assets/Vector (5).png" alt="">
+            </div>
+            <a href="/reserve"><button>მიღებაზე ჩაწერა ></button></a>
+        </div>
+    </div>
+</div>

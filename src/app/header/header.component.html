@@ -1,0 +1,35 @@
+
+<app-authorization *ngIf="isChecked" class="auth" id="auth"></app-authorization>
+
+<header>
+    <nav>
+        <ul class="logo_ul">
+            <li>
+                <a routerLink="/home">
+                    <img src="../../assets/logo 1.png" alt=""><p>კლინიკა</p>
+                </a>
+            </li>
+        </ul>
+        <ul class="title_ul">
+            <li *ngFor="let title of headerTitle">
+                <a href="">{{title.title}}</a>
+            </li>
+        </ul>
+        <ul class="login_ul">
+            <li class="login_button">
+                <a class="active"  (click)="auth()">ავტორიზაცია</a> /
+                <a  routerLink="/UserReg"  routerLinkActive="active" ariaCurrentWhenActive="page"> რეგისტრაცია</a>
+            </li>
+            <li class="languages">
+                <form>
+                    <select id="mySelect">
+                        <option *ngFor="let item of languages" value='{{item.title}}'>{{item.title}}</option>
+                    </select>
+                  </form>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+
+

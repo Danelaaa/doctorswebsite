@@ -1,0 +1,51 @@
+<app-header></app-header>
+<app-bottom-header></app-bottom-header>
+<div class="wrapper">
+    <div class="container">
+      <h2>კატეგორიები</h2>
+      <div class="table">
+        <div class="th-row">
+          <p>სახელი</p>
+          <p class="category">კატეგორია</p>
+          <p class="picture">ფოტოსურათი</p>
+          <p class="rate">რეიტინგი</p>
+          <p></p>
+        </div>
+        <div class="body">
+          <div class="tr-rows" *ngFor="let row of categories">
+            <p class="name">{{row.name}}</p>
+            <p class="category">{{row.category}}</p>
+            <div class="img">
+              <img class="picture" src="{{ row.picture }}" alt="picture" />
+            </div>
+            <div class="rate">
+                <img
+                *ngIf="row.name !== 'სოფია გოგიაშვილი' && row.name !== 'ანა დვალი'
+              && row.name !== 'ნატალია გოგოხია'&& row.name !== 'ბარბარე ქორთუა'&&
+              row.name !== 'ნატალია გოგოხიძე'"
+                src="../../assets/Vector (7).png" alt="star"
+                />
+                <img src="../../assets/Vector (7).png" alt="star" />
+                <img src="../../assets/Vector (7).png" alt="star" />
+                <img src="../../assets/Vector (7).png" alt="star" />
+                <img
+                *ngIf="row.name !== 'ნატალია გოგოხია'&& row.name !== 'ბარბარე ქორთუა'&&
+                row.name !== 'ნატალია გოგოხიძე'"
+                 src="../../assets/Vector (7).png" alt="star"
+                />
+            </div>
+            <div class="edit-delete">
+              <div class="edit-green-icon">
+                <img src="../../assets/WhatsApp Image 2023-04-28 at 11.04.32 AM (2).jpeg" />
+              </div>
+              <div class="delete-icon">
+                <img src="../../assets/形状.png" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <app-footer></app-footer>
+ 

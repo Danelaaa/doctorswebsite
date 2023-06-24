@@ -1,0 +1,15 @@
+<div class="categories">
+    <div class="categories_div">
+        <h4>კატეგორიები</h4>
+        <hr>
+        <div class="categories_title" *ngFor="let item of categoriesTitle">
+            <p>({{item.id}})</p>
+            <a href="">{{item.title}}</a>
+        </div>
+        <hr>
+        <div class="full">
+            <a href="/categories">სრულად ნახვა</a>
+            <i class="arrow down"></i>
+        </div>
+    </div>
+</div>
